@@ -2,15 +2,15 @@ package com.devservice.menuonline.enums;
 
 public enum TypeEstablishment {
 
-	Bar("1"),Restaurant("2");
+	Bar(1),Restaurant(2);
 
-	private String typeEtablishment;
+	private Integer typeEtablishment;
 
-	TypeEstablishment(String typeEtablishment) {
+	TypeEstablishment(Integer typeEtablishment) {
 		this.typeEtablishment = typeEtablishment;
 	}
 
-	public String getTypeEstablishment() {
+	public Integer getTypeEstablishment() {
 		return typeEtablishment;
 	}
 
